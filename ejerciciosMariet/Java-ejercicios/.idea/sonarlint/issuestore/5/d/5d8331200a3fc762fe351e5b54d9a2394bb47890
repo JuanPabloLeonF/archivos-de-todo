@@ -1,0 +1,11 @@
+
+K
+java:S3740"/Provide the parametrized type for this generic.(Âðªz8©Èå­•1
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Âðªz8©Èå­•1
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(í–¸üúÿÿÿÿ8øÃÚ­•1
+m
+java:S22590"KA "NullPointerException" could be thrown; "scannerNumber" is nullable here.(øœžÄúÿÿÿÿ8¯Æë­•1
+S
+java:S2589"7Remove this expression which always evaluates to "true"(ìéû8¯Æë­•1
+o
+java:S3776	"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Çµí‘8óÂ¯­•1

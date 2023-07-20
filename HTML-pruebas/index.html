@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos/style.css">
+    <link rel="shortcut icon" href="/imagenes/icons8-logotipo-de-java-coffee-cup-32.png" type="image/x-icon">
+    <title>Pruebas</title>
+</head>
+<body>
+    <h2 id="lista_ordenada">Lista Ordenada Personalizada</h2>
+    <ol>
+        <li>JAVA</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>SPRING</li>
+    </ol>
+    <hr>
+    <h2>Lista De Descripcion</h2>
+    <h3>Lenguajes de programcion:</h3>
+    <dl>
+        <dt>JAVA</dt>
+        <dd>Creador: James Gosling</dd>
+        <dt>PYTHON</dt>
+        <dd>Creador: Guido Van Rossum</dd>
+        <dt>JAVASCRIPT</dt>
+        <dd>Creador: Brendan Eich</dd>
+    </dl>
+    <hr>
+    <h1>Elementos de bloque</h1>
+    <p>
+        Lorem ipsum dolor sit amet, <span>consectetur</span> adipisicing elit. Quam id adipisci soluta? Dolore veritatis, unde beatae accusamus a mollitia nobis explicabo qui exercitationem aperiam odit earum ab obcaecati porro tempore!
+    </p>
+    <h1 id="titulo_principal">Lenguajes de programacion</h1>
+    <div class="java">
+        <h2 id="java">JAVA</h2>
+        <p>
+            <span>Creador: </span> James Goslin
+        </p>
+    </div>
+    <div class="python">
+        <h2>PYTHON</h2>
+        <p>
+            <span>Creador: </span> Guido Van Rossum
+        </p>
+    </div>
+    <div class="javascript">
+        <h2>JAVASCRIPT</h2>
+        <p>
+            <span>Creador: </span> Brendan Eich
+        </p>
+    </div>
+    <h1 class="texto1">Resumen  Lenguajes de Programacion</h1>
+    <p class="parrafofin">GlobalMentoring.com.mx</p>
+    <hr>
+    <a class="icono_subida" href="#lista_ordenada" title="devolver a listas ordenadas">
+        <img src="/imagenes/icons8-flecha-32.png" alt="icono de subida">
+    </a>
+    <br>
+    <h1>IFRAME</h1>
+    <iframe class="marco" src="https://developer.mozilla.org/es/docs/Web/HTML" name="marco1"></iframe>
+    <div class="centrar">
+        <a class="boton" href="https://globalmentoring.com.mx" target="marco1">globalMentoring</a>
+    </div>
+    <hr>
+    <h1>Formularios</h1>
+    <form action="URL/para/servidor" method="GET" target="_self" autocomplete="on">
+        <fieldset>
+            <legend>Datos Persona:</legend>
+            <input type="hidden" name="sistema" id="sistema" value="SAP">
+
+            <label for="idPersona">Id Persona:</label>
+            <br>
+            <input type="text" name="idPersona" id="idPersona" value="1" readonly disabled>
+
+            <br>
+            <label for="nombre">Nombre:</label>
+            <br>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre:" required="true">
+
+            <br>
+            <label for="apellido">Apellido:</label>
+            <br>
+            <input type="text" name="apellido" id="apellido" placeholder="Apellido:" required="true">
+
+            <br>
+            <label for="correo">Email:</label>
+            <br>
+            <input type="email" name="correo" id="correo" placeholder="Email:">
+
+            <br>
+            <label for="Contraseña">Contraseña:</label>
+            <br>
+            <input type="password" name="contraseña" id="contraseña" placeholder="Constraseña:" required="true">
+
+            <br>
+            <label for="telefono">Telefono:</label>
+            <br>
+            <input type="text" placeholder="Telefono:" name="telefono" id="telefono">
+
+            <br>
+            <label for="edad">Edad:</label>
+            <br>
+            <input type="number" placeholder="Edad" name="edad" id="edad">
+
+            <br>
+            <label>Genero:</label>
+            <br>
+            <input type="checkbox" name="genero" id="masculino" value="masculino">
+            <label for="masculino">Masculino</label>
+            <br>
+            <input type="checkbox" name="genero" id="femenino" value="masculino">
+            <label for="femenino">Femenino</label>
+
+            <br>
+            <label>Tipo:</label>
+            <br>
+            <input type="radio" name="tipo" id="estudiante" value="estudiante">
+            <label for="estudiante">Estudiante</label>
+            <br>
+            <input type="radio" name="tipo" id="profesor" value="profesor">
+            <label for="profesor">Profesor</label>
+            <br>
+            <input type="radio" name="tipo" id="coordinador" value="coordinador">
+            <label for="coordinador">Coordinador</label>
+
+            <br>
+            <label for="autos">Marca de auto favorita:</label>
+            <br>
+            <select name="autos" id="autos" multiple>
+                <option value="volvo">Volvo</option>
+                <option value="bmw">BMW</option>
+                <option value="ferrari" selected="true">Ferrari</option>
+            </select>
+
+            <br>
+            <label for="comentario">Comentario</label>
+            <br>
+            <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Escribe un comentario"></textarea>
+
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </fieldset>
+    </form>
+    <hr>
+    <div class="login">
+        <h1>Login</h1>
+        <form action="" method="POST" id="forma" name="forma">
+            <div class="elemento">
+                <label for="usuario">Usuario</label>
+                <input type="text" name="usuario" id="usuario" required>
+            </div>
+            <div class="elemento">
+                <label  for="password">Password</label>
+                <input  type="password" name="password" id="password" required>
+            </div>
+            <div class="elemento">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

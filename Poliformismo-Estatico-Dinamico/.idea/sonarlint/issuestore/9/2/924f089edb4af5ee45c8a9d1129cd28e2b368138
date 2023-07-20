@@ -1,0 +1,11 @@
+
+Z	java:S106
+"9Replace this use of System.out or System.err by a logger.(…¼’Ğûÿÿÿÿ8œñÔ—‘1
+W
+java:S2209
+"5Change this instance-reference to a static reference.(…¼’Ğûÿÿÿÿ8–à—‘1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(–¡ŸÊûÿÿÿÿ8İ¡Õ—‘1
+W
+java:S2209"5Change this instance-reference to a static reference.(–¡ŸÊûÿÿÿÿ8¦–à—‘1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ç™ıÚ8²ŠÖ—‘1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ú¦”Šıÿÿÿÿ8ªÖ—‘1
